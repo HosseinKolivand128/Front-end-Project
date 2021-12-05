@@ -1,0 +1,49 @@
+nav {
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+}
+
+.list {
+}
+.navItem > a > img {
+  width: 25px;
+  padding: auto;
+}
+
+.navBar {
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  flex-flow: wrap row;
+  justify-content: space-around;
+}
+
+.navItem {
+  padding: 2%;
+}
+
+.Box {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+}
+
+.signupBox {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-around;
+  align-items: center;
+  border: black solid 1px;
+  border-radius: 5px;
+  padding: 5%;
+}
+
+.signupBox > img {
+  order: 1;
+  width: 30px;
+  /* padding-left: 10px; */
+  margin-left: 5px;
+}
