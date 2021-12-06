@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="index.css" />
     <title>Document</title>
   </head>
-  <body>
+  <body class="container-fluid">
     <header class=".container-md header">
       <nav class="row">
         <section class="col-2 Box">
@@ -52,91 +52,90 @@
       </nav>
     </header>
 
-    <!-- <article
-      id="carouselExampleCaptions"
-      class="carousel slide row"
-      data-bs-ride="carousel"
-    >
-      <section class="col">
-        <section class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </section>
-        <section class="carousel-inner">
-          <section class="carousel-item active">
-            <img src="img/SonyHeadPhone.jpg" class="d-block w-100" alt="..." />
-            <section class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
-            </section>
-          </section>
-          <section class="carousel-item">
-            <img
-              src="img/Sony headphone1.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-            <section class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>
-                Some representative placeholder content for the second slide.
-              </p>
-            </section>
-          </section>
-          <section class="carousel-item">
-            <img
-              src="img/Over-Ear-AirPods-Studio-Feature-Blue.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-            <section class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
-            </section>
-          </section>
-        </section>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+    <article>
+      <section class="AdSection">
+        <figure class="AdFigure">
+          <img
+            id="headphone"
+            class="img-fluid"
+            src="/img/Over-Ear-AirPods-Studio-Feature-Blue.jpg"
+            alt=""
+          />
+          <figcaption class="center-right fw-bolder fs-1" id="adCapt" dir="ltr">
+            !آهنگ ها رو زنده تر از چیزی که هست گوش بده
+          </figcaption>
+        </figure>
       </section>
-    </article> -->
+    </article>
+
+    <article class="productArticle">
+      <section class="productSection">
+        <section class="card" style="width: 18rem">
+          <figure class="border">
+            <img
+              src="img/a237619f5a8c0854fe5a68e51ddfa24c4a8e2dbe_1597144726.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <span class="offSpan badge rounded bg-danger"> پیشنهاد ویژه </span>
+            <section class="rating">
+              <span id="rating-star">
+                <img
+                  src="img/icons8-star-48.png"
+                  alt="rating star"
+                  width="18px"
+                />
+                <img
+                  src="img/icons8-star-48.png"
+                  alt="rating star"
+                  width="18px"
+                />
+                <img
+                  src="img/icons8-star-48.png"
+                  alt="rating star"
+                  width="18px"
+                />
+                <img
+                  src="img/icons8-star-48.png"
+                  alt="rating star"
+                  width="18px"
+                />
+              </span>
+            </section>
+            <figcaption class="card-fig-capt">
+              هدفون بی سیم ریو مدل S100
+            </figcaption>
+          </figure>
+
+          <section class="card-body">
+            <section class="opt">
+              <section>
+                <section>
+                  <figure>
+                    <img src="" alt="" />
+                    <figcaption>خرید</figcaption>
+                  </figure>
+                </section>
+                <section>
+                  <figure>
+                    <img src="" alt="" />
+                    <figcaption>علاقه</figcaption>
+                  </figure>
+                </section>
+              </section>
+            </section>
+
+            <section class="price">900هزار تومان</section>
+            <!-- <h5 class="card-title">Card title</h5> -->
+            <!-- <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p> -->
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </section>
+        </section>
+      </section>
+    </article>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

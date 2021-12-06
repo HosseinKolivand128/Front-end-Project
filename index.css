@@ -44,6 +44,56 @@ nav {
 .signupBox > img {
   order: 1;
   width: 30px;
-  /* padding-left: 10px; */
   margin-left: 5px;
+}
+
+.AdSection {
+  position: relative;
+}
+
+.AdFigure {
+  display: flex;
+  position: relative;
+  border: thin black solid;
+  display: flex;
+  flex-flow: column wrap;
+}
+.center-right {
+  position: absolute;
+  top: 50%;
+  left: 58%;
+}
+.offSpan {
+  position: absolute;
+  top: 3%;
+  left: 71%;
+  /* font-size: smaller; */
+}
+.rating {
+}
+.card-body {
+  display: grid;
+  grid-template-columns: repeat(6, 50%);
+}
+.opt > section {
+  display: flex;
+  justify-content: space-around;
+}
+#rating-star {
+  display: flex;
+  flex-flow: nowrap row;
+  position: absolute;
+  top: 3%;
+  left: 2%;
+}
+#adCapt {
+  color: rgba(16, 16, 253, 0.726);
+}
+.card-fig-capt {
+  text-align: center;
+  direction: rtl;
+  font-size: larger;
+}
+#headphone {
+  height: 45rem;
 }
