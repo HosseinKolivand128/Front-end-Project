@@ -50,6 +50,17 @@ nav {
 .AdSection {
   position: relative;
 }
+/* .border > img {
+  width: 450px;
+  height: 200px;
+} */
+.productSection {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap row;
+  align-items: center;
+  padding: 2%;
+}
 
 .AdFigure {
   display: flex;
@@ -116,20 +127,28 @@ nav {
 
 .options {
   display: flex;
-  flex-flow: wrap row;
-  justify-content: space-evenly;
+  flex-flow: nowrap row;
+
+  justify-content: space-around;
+}
+.pr {
+  padding-left: 28px;
+  /* padding-right: -20px; */
+
+  /* display: flex; */
+  /* justify-content: flex-start; */
 }
 
 #like {
   color: white;
-  /* transition: margin-right 0.5s; */
 
   background-color: rgb(6, 153, 6);
 }
 .option {
   display: flex;
+  flex-flow: nowrap;
   align-items: center;
-  width: 30%;
+  width: 35%;
 }
 #buy {
   color: white;
@@ -140,23 +159,32 @@ nav {
   flex-flow: nowrap row;
 }
 .option span {
-  margin-left: 12px;
+  margin-left: 10px;
   padding: 2%;
 }
-.option section {
+/* .option section {
   padding: 2%;
-}
+} */
 #buy:hover,
 #like:hover {
   animation: fade 0.9s ease-out;
   background-color: rebeccapurple;
 }
-
+.fContent {
+  direction: rtl;
+  padding: 30px;
+}
+.sMedia {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 3%;
+}
 @keyframes fade {
   0% {
     width: 0px;
   }
   100% {
-    width: 90px;
+    width: 85px;
   }
 }
